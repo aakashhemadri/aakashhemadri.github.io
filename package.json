@@ -1,12 +1,12 @@
 {
-  "name": "aakashhemadri.github.io",
+  "name": "aakashhemadri.com",
   "version": "0.2.1",
   "description": "The doorway to the universe of Aakash Hemadri.",
   "author": "Aakash Hemadri",
   "homepage": "https://aakashhemadri.github.io/aakashhemadri.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:aakashhemadri/aakashhemadri.github.io.git"
+    "url": "git@github.com:aakashhemadri/aakashhemadri.com.git"
   },
   "private": false,
   "scripts": {
