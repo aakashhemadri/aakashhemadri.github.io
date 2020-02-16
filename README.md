@@ -1,3 +1,3 @@
 # aakashhemadri.github. [![Build Status](https://travis-ci.com/aakashhemadri/aakashhemadri.com.svg?token=zZ7z2AXsuYs1BR7XDBqx&branch=master)](https://travis-ci.com/aakashhemadri/aakashhemadri.com) [![NPM version](https://img.shields.io/npm/v/aakashhemadri.com.svg?style=flat-square)](https://www.npmjs.com/package/aakashhemadri.com) [![Build](https://travis-ci.org/aakashhemadri/aakashhemadri.com.svg?branch=master)](https://travis-ci.org/aakashhemadri/aakashhemadri.com) [![codecov.io](https://codecov.io/github/aakashhemadri/aakashhemadri.com/coverage.svg?branch=master)](https://codecov.io/github/aakashhemadri/aakashhemadri.com?branch=master) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-A doorway to my universe :)
+A portal to my universe :)
