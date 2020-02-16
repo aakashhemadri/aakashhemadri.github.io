@@ -17,3 +17,6 @@ deploy:
     target_branch: master
     on:
       branch: production
+branches:
+  except:
+    - master
