@@ -1,9 +1,19 @@
 import React from "react";
 import { render } from "@testing-library/react";
+import Loading from "./App";
+import Index from "./views/Index";
 import App from "./App";
 
-test("renders my github profile link", () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/Aakash Hemadri/i);
-  expect(linkElement).toBeInTheDocument();
+test("render Loading...", () => {
+  const { getByText } = render(<Loading />);
+  const loadingElement = getByText(/Loading.../i);
+  expect(loadingElement).toBeInTheDocument();
+});
+
+test("Index page defined.", () => {
+  expect(Index).toBeDefined();
+});
+
+test("setup index page and routing", () => {
+  expect(App).toBeDefined();
 });

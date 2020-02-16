@@ -1,28 +1,21 @@
 import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
+
+function Loading() {
+  return <div className="animated fadeIn pt-3 text-center">Loading...</div>;
+}
+const Index = React.lazy(() => import("./views/Index/Index"));
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hi.</h1>
-        <p>
-          You'll have to wait for some more time, <br></br>this website is in
-          construction.
-        </p>
-        <p>
-          If you'd like to know who I am and what I do,<br></br>
-          <a
-            className="App-link"
-            href="https://github.com/aakashhemadri"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Aakash Hemadri
-          </a>
-        </p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <React.Suspense fallback={<Loading />}>
+        <Switch>
+          <Route path="/" name="Index" render={props => <Index {...props} />} />
+        </Switch>
+      </React.Suspense>
+    </BrowserRouter>
   );
 }
 
