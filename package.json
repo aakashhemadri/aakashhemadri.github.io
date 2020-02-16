@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git@github.com:aakashhemadri/aakashhemadri.github.io.git"
   },
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -16,6 +16,8 @@
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "check": "npm-check -u"
   },
   "dependencies": {
