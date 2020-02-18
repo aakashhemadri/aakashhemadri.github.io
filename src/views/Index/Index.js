@@ -8,9 +8,10 @@ export default class Index extends Component {
           <header className="App-header">
             <h1>Hi.</h1>
             <p>
-              You'll have to wait for some more time, <br></br>this website is
-              in construction.
+              You'll have to wait for some time, <br></br>this website is
+              under construction.
             </p>
+            <br></br>
             <p>
               If you'd like to know who I am and what I do,<br></br>
               <a
