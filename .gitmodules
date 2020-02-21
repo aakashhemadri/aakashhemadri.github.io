@@ -1,0 +1,3 @@
+[submodule "src/assets/leonsans"]
+	path = src/assets/leonsans
+	url = https://github.com/cmiscm/leonsans.git
