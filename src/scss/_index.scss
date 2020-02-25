@@ -8,7 +8,7 @@
 }
 
 .Index {
-  animation: animatedBackground 40s linear infinite;
+  animation: animatedBackground 120s linear infinite;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,13 +38,12 @@
   height: 20vmin;
 }
 .Index-title {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  width: 100%;
   margin: 0.2em;
-  font-size: 10vmin;
+  font-size: 9vmin;
   color: #fff;
-  mix-blend-mode: exclusion;
+  background-color: rgba(0, 0, 0, 0.4);
+  //mix-blend-mode: difference;
 }
 
 .Index-content {
@@ -55,6 +54,14 @@
 }
 .Index-link {
   font-size: 7vmin;
+  background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
-  mix-blend-mode: exclusion;
+}
+.Index-link:hover {
+  font-size: 7vmin;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgb(11, 166, 212);
+  mix-blend-mode: difference;
+
+  text-decoration: none;
 }

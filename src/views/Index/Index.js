@@ -19,7 +19,7 @@ export default class Index extends Component {
               class="Index-image"
               alt="Avatar - Aakash Hemadri"
             />
-            <div class="Index-title">^-^Aakash Hemadri</div>
+            <div class="Index-title">$ ./Aakash\ Hemadri</div>
           </header>
           <div class="Index-content">
             <a
