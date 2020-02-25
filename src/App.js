@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.scss";
 
 function Loading() {
-  return <div className="animated fadeIn pt-3 text-center">Loading...</div>;
+  return <div>[ Loading... ]</div>;
 }
 const Index = React.lazy(() => import("./views/Index/Index"));
 
