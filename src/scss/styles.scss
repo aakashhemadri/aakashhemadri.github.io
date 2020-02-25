@@ -1,6 +1,8 @@
 // Custom.scss
 // Option B: Include parts of Bootstrap
-@import "custom.scss";
+@import "andy";
+@import "assets/fonts/VG5000/webfonts/font.css";
+@import "custom";
 
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
