@@ -1,4 +1,6 @@
 language: node_js
+env:
+  - GA=$GA
 os:
   - linux
 node_js:
