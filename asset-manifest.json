@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9e1a890.chunk.css",
+    "main.js": "/static/js/main.94350994.chunk.js",
+    "main.js.map": "/static/js/main.94350994.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3558b918.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3558b918.js.map",
+    "static/js/2.054345fd.chunk.js": "/static/js/2.054345fd.chunk.js",
+    "static/js/2.054345fd.chunk.js.map": "/static/js/2.054345fd.chunk.js.map",
+    "static/js/3.73efaf00.chunk.js": "/static/js/3.73efaf00.chunk.js",
+    "static/js/3.73efaf00.chunk.js.map": "/static/js/3.73efaf00.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6dd6301c05c5551794ef47b305caedc1.js": "/precache-manifest.6dd6301c05c5551794ef47b305caedc1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a9e1a890.chunk.css.map": "/static/css/main.a9e1a890.chunk.css.map",
+    "static/js/2.054345fd.chunk.js.LICENSE.txt": "/static/js/2.054345fd.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/asteroids.f3484a02.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3558b918.js",
+    "static/js/2.054345fd.chunk.js",
+    "static/css/main.a9e1a890.chunk.css",
+    "static/js/main.94350994.chunk.js"
+  ]
+}
