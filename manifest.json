@@ -1,0 +1,31 @@
+{
+  "short_name": "Aakash Hemadri",
+  "name": "Aakash Hemadri - Home Page",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fdefc0",
+  "theme_color": "#FF69B4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icons/icon-16x16.png",
+      "type": "image/png", "sizes": "16x16"
+    },
+    {
+      "src": "/images/icons/favicon-32x32.png",
+      "type": "image/png", "sizes": "32x32"
+    },
+    {
+      "src": "/images/icons/apple-touch-icon.png",
+      "type": "image/png","sizes": "180x180"
+    },
+    {
+      "src": "/images/icons/android-chrome-192x192.png",
+      "type": "image/png", "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons/android-chrome-512x512.png",
+      "type": "image/png", "sizes": "512x512"
+    }
+  ]
+}
