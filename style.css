@@ -7,10 +7,10 @@ html, body {
 
 .container {
 	height: 100%;
-	background: "#fdefc0";
-	#background-image: url("images/asteroids.jpg");
-	#background-repeat: repeat;
-	#font-family: 'Trebuchet MS', sans-serif;
+	background: #423F3E;
+	/*background-image: url("images/asteroids.jpg");
+	background-repeat: repeat;
+	font-family: 'Trebuchet MS', sans-serif;*/
 	font-family: 'Courier New', monospace;
 	display: grid;
 	place-items: center;
@@ -23,11 +23,12 @@ html, body {
 
 h1 {
 	font-size: 8vmin;
+	color: #fdefc0;
 }
 
 .item {
 	font-size: 6vmin;
-	color: white;
+	color: #fdefc0;
 	text-decoration: none;
 }
 
@@ -38,7 +39,7 @@ h1 {
 
 .sep {
 	font-size: 6vmin;
-	color: black;
+	color: #fdefc0;
 	text-decoration: none;
 }
 
