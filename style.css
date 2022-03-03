@@ -5,12 +5,21 @@ html, body {
 	overflow: hidden;
 }
 
+@keyframes animBG {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 100% 100%;
+	}
+}
+
 .container {
 	height: 100%;
-	background: #423F3E;
-	/*background-image: url("images/asteroids.jpg");
+	animation: animBG 120s linear infinite;
+	background-image: url("images/asteroids.jpg");
 	background-repeat: repeat;
-	font-family: 'Trebuchet MS', sans-serif;*/
+	/*font-family: 'Trebuchet MS', sans-serif;*/
 	font-family: 'Courier New', monospace;
 	display: grid;
 	place-items: center;
@@ -21,14 +30,22 @@ html, body {
 	place-items: center;
 }
 
+img {
+	border-radius: 7px;
+	height: 20vmin;
+	pointer-events: none;
+}
+
 h1 {
 	font-size: 8vmin;
 	color: #fdefc0;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 .item {
 	font-size: 6vmin;
 	color: #fdefc0;
+	background-color: rgba(0, 0, 0, 0.4);
 	text-decoration: none;
 }
 
@@ -40,6 +57,7 @@ h1 {
 .sep {
 	font-size: 6vmin;
 	color: #fdefc0;
+	background-color: rgba(0, 0, 0, 0.4);
 	text-decoration: none;
 }
 
