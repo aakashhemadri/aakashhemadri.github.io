@@ -7,7 +7,9 @@ html, body {
 
 .container {
 	height: 100%;
-	background: #fdefc0;
+	background: "#fdefc0";
+	#background-image: url("images/asteroids.jpg");
+	#background-repeat: repeat;
 	#font-family: 'Trebuchet MS', sans-serif;
 	font-family: 'Courier New', monospace;
 	display: grid;
@@ -25,7 +27,7 @@ h1 {
 
 .item {
 	font-size: 6vmin;
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
